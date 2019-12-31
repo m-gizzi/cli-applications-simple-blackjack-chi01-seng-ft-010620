@@ -40,9 +40,9 @@ def hit?(num)
       num + num1
     end
   else
-  invalid_command
-  prompt_user
-end
+    invalid_command
+    prompt_user
+  end
 end
 
 def invalid_command
