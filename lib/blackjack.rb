@@ -40,7 +40,7 @@ def hit?(num)
       num + num1
     end
   else
-  invalid_command
+  puts 'Please enter a valid command'
   prompt_user
 end
 end
